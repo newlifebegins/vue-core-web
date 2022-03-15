@@ -1,0 +1,14 @@
+[*.{js,jsx,ts,tsx,vue}]
+# indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Set default charset  对于所有的js,py文件，设置文件字符集为utf-8
+[*.{js,py}]
+# charset = utf-8
+
+# Matches the exact files either package.json or .travis.yml 设置确切文件 package.json/.travis/.yml的缩进类型
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 4
