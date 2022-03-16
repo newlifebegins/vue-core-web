@@ -1,22 +1,23 @@
 <!--
  * @Author: wangwei
  * @Date: 2022-03-14 15:29:21
- * @LastEditTime: 2022-03-14 20:34:41
+ * @LastEditTime: 2022-03-15 18:59:39
  * @FilePath: App.vue
 -->
 <template>
     <img alt="Vue logo" src="./assets/logo.png" />
     <a-button type="primary">Primary Button</a-button>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Print msg="Welcome to Your Vue.js App" />
+    <a-date-picker :showToday="false" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Print from './components/Print.vue';
 
 export default {
     name: 'App',
     components: {
-        HelloWorld,
+        Print,
     },
 };
 </script>

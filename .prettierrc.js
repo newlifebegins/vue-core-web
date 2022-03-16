@@ -14,5 +14,5 @@ module.exports = {
     jsxBracketSameLine: false,
     arrowParens: 'avoid', //  (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
     requirePragma: false,
-    proseWrap: 'preserve'
+    proseWrap: 'preserve',
 };

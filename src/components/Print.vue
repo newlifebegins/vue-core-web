@@ -1,8 +1,8 @@
 <!--
  * @Author: wangwei
  * @Date: 2022-03-14 15:29:21
- * @LastEditTime: 2022-03-15 08:57:51
- * @FilePath: HelloWorld.vue
+ * @LastEditTime: 2022-03-15 20:01:05
+ * @FilePath: Print.vue
 -->
 <template>
     <div class="hello" id="print">
@@ -40,7 +40,7 @@
             <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
         </ul>
         <h3>Ecosystem</h3>
-        <ul>
+        <ul id="ul">
             <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
             <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
             <li>
@@ -64,7 +64,7 @@ export default {
     },
     methods: {
         printJS() {
-            print({ printable: 'print', type: 'html', header: '这是标题内容' });
+            print({ printable: 'ul', type: 'html', header: '这是标题内容' });
         },
     },
 };
