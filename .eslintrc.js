@@ -1,7 +1,7 @@
 /*
  * @Author: wangwei
  * @Date: 2022-03-14 15:52:12
- * @LastEditTime: 2022-03-15 10:17:34
+ * @LastEditTime: 2022-03-22 16:42:25
  * @FilePath: .eslintrc.js
  */
 /* eslint-disable */
@@ -47,6 +47,7 @@ module.exports = {
         'vue/no-parsing-error': 0,
         'vue/require-default-prop': 0,
         'vue/require-prop-types': 0,
+        "vue/no-v-model-argument": "off",
         quotes: [
             2,
             'single',
